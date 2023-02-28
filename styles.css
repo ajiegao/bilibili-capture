@@ -1,0 +1,31 @@
+.bilibili-player-video-control {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    border-radius: 0 !important;
+  }
+  
+  .bilibili-player-video-control button:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+  }
+  
+  .bilibili-player-video-control-bottom-center {
+    justify-content: space-between !important;
+  }
+  
+  .bilibili-player-video-control-bottom-center .bilibili-player-video-btn-fullscreen {
+    margin-right: 12px !important;
+  }
+  
+  .bilibili-player-video-control-bottom-center .bilibili-player-video-btn-widescreen {
+    margin-right: 12px !important;
+  }
+  
+  .bilibili-player-video-control-bottom-center .bilibili-player-video-btn-volume {
+    margin-left: 12px !important;
+  }
+  
+  .bilibili-player-video-control-bottom-center .bilibili-player-video-btn-volume .bilibili-player-iconfont {
+    font-size: 16px !important;
+  }
+  

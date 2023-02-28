@@ -1,0 +1,28 @@
+{
+  "name": "视频截图",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "对Bilibili等播放中的视频进行截图",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "take-screenshot": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+8",
+        "mac": "Command+Shift+8"
+      },
+      "description": "对视频进行截图"
+    }
+  }
+}
